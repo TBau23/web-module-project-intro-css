@@ -14,9 +14,9 @@ menu, nav, output, section {
     vertical-align: baseline;
 }
 
-* {
-    border: 1px solid grey;
+body {
     max-width: 100%;
+    font-family: 'Roboto Mono';
 }
 
 nav {
@@ -45,7 +45,7 @@ nav a {
 
 .top-image {
     border-radius: 200px ;
-    margin:2.5% 10%;
+    margin:1% 10%;
     height: 20%;
     width: 20%
 }
@@ -57,21 +57,22 @@ nav a {
 }
 
 h1, h2, h3 {
-    line-height: 2;
+    
     letter-spacing: 2px;  
     text-align: center;
-    padding: 7%;
+    padding: 5%;
 }
 
 h1 {
     font-size: 40px;
+    font-family: 'Chelsea Market', cursive;
 }
 
 .body-text {
     background-color: #DDB9A3;
     color: white;
     margin: 2% 10%;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
 }
 
@@ -81,19 +82,20 @@ h1 {
 
 .icon-section {
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 .icon-section img {
     height: 150px;
     width: 150px;
-    margin: 2%;
+    padding: 1%;
 
 }
 
 .icon-section p {
-    width: 15%;
+    width: 25%;
     text-align: center;
+    margin: 0 auto;
 }
 
 span {
@@ -102,11 +104,17 @@ span {
 
 footer {
     background-color: #F9E7DC ;
+    padding-bottom: 3%;
+}
+
+footer nav {
+    margin-top: 5%;
 }
 
 footer img {
-    width: 98%;
+    width: 99%;
     height: 300px;
     margin: 0 auto;
+    display: block;
 
 }
