@@ -14,10 +14,9 @@ menu, nav, output, section {
     vertical-align: baseline;
 }
 
-
-
 * {
     border: 1px solid grey;
+    max-width: 100%;
 }
 
 nav {
@@ -54,7 +53,6 @@ nav a {
 .headlines {
     width: 30%;
     margin: 0 10%;
-    border: 5px solid black;
     display: inline-block;
 }
 
@@ -65,14 +63,50 @@ h1, h2, h3 {
     padding: 7%;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .body-text {
     background-color: #DDB9A3;
     color: white;
-    margin: 0 10%;
+    margin: 2% 10%;
     padding: 3%;
     text-align: center;
 }
 
 .body-text p {
     margin: 2% 0;
+}
+
+.icon-section {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon-section img {
+    height: 150px;
+    width: 150px;
+    margin: 2%;
+
+}
+
+.icon-section p {
+    width: 15%;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F9E7DC ;
+}
+
+footer img {
+    width: 98%;
+    height: 300px;
+    margin: 0 auto;
+
 }
